@@ -12,7 +12,7 @@ COPY . .
 RUN go build -o kafka-connect-init main.go
 
 
-FROM alpine:3
+FROM alpine:20210804
 
 WORKDIR /app
 
