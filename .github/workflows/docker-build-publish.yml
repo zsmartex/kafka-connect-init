@@ -34,7 +34,7 @@ jobs:
 
       # set env short env
       - name: short-sha
-        uses: benjlevesque/short-sha@v1.2
+        uses: benjlevesque/short-sha@v3.0
 
       # Login against a Docker registry except on PR
       # https://github.com/docker/login-action
